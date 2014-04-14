@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">07File</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="fileNameTitle">文件名</string>
+    <string name="fileNameHint">请输入文件名</string>
+    <string name="filContextTitle">文件内容</string>
+    <string name="fileContextHint">请输入文件内容</string>
+    <string name="btnrom">保存到ROM</string>
+    <string name="btnSd">保存到SD卡</string>
+
+</resources>

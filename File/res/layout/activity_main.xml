@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fileNameTitle" />
+
+    <EditText
+        android:id="@+id/et_main_fileName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/fileNameHint" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/filContextTitle" />
+
+    <EditText
+        android:id="@+id/et_main_context"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/fileContextHint" 
+        android:marqueeRepeatLimit="marquee_forever"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btn_mian_rom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:text="@string/btnrom"/>
+        
+        <Button
+            android:id="@+id/btn_mian_sd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:text="@string/btnSd"/>
+    </LinearLayout>
+
+</LinearLayout>
